@@ -1,0 +1,62 @@
+:root{
+    --clr-white: #fff;
+    --clr-slate200: #e2e8f0;
+    --clr-slate900: #0f172a;
+    --clr-rose600: #e11d48;
+    --clr-indigo: #4338ca;
+
+        /* Sizes */
+        --size-xxs: 0.5rem;
+        --size-xs: 0.75rem;
+        --size-sm: 0.875rem;
+        --size-base: 1rem;
+        --size-lg: 1.125rem;
+        --size-xl: 1.25rem;
+        --size-2xl: 1.5rem;
+        --size-3xl: 1.875rem;
+        --size-4xl: 2.25rem;
+        --size-5xl: 3rem;
+        --size-6xl: 3.75rem;
+        --size-7xl: 4.5rem;
+        --size-8xl: 6rem;
+}
+
+*{
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'General Sans' sans-serif;
+    background-color: var(--clr-slate200);
+    color: var(--clr-jet);
+}
+img, picture, video, canvas, svg{
+    display: inq;
+    max-width: 100%;
+    user-select: none;
+}
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+a{
+    color: var(--clr-white);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+strong{
+    color: var(--clr-white);
+    text-transform: capitalize;
+}
