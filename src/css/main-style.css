@@ -97,9 +97,10 @@
     margin-bottom: 2px;
 }
 .section__introduction{
-    text-align: center;
+    text-align:justify;
     margin-top: 0.5rem;
     color: var(--clr-white);
+    padding: 0 10px;
 }
 .section__course{
     text-align: center;
