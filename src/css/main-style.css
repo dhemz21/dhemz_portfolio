@@ -98,6 +98,7 @@
     text-align: justify;
     margin-top: 0.5rem;
     color: var(--clr-white);
+    padding: 0 10px;
 }
 .section__course{
     text-align: center;
@@ -297,4 +298,4 @@
   .section2__box__item:nth-child(4n) .section2__box__bg {
     background-color: #952aff;
   }
-  
+
