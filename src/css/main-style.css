@@ -226,9 +226,10 @@
   .section2__main__box {
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 30px 0;
   }
 .section2__heading h1{
+    margin-top: 1rem;
     text-align: center;
     color: var(--clr-white);
     text-transform: uppercase;
@@ -260,7 +261,7 @@
   
   .section2__service {
     position: relative;
-    min-height: 50px;
+    min-height: 80px;
     margin: 0 0 25px;
     overflow: hidden;
     font-weight: bold;
@@ -298,4 +299,24 @@
   .section2__box__item:nth-child(4n) .section2__box__bg {
     background-color: #952aff;
   }
+
+  /* sm */
+@media(min-width: 640px){
+    .section2__main__box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .section2__box__item {
+        flex-basis: calc(50% - 20px);
+        margin: 10px;
+      }
+}
+/* xl */
+@media(min-width: 1280px){
+    .section2__box__item {
+        flex-basis: calc(40% - 20px);
+        margin: 10px;
+      }
+}
 
