@@ -63,7 +63,7 @@
     text-align: center;
 }
 .section__profile img {
-    height: 180px;
+    max-height: 500px;
     width: 160px;
     border-radius: 6px;
     margin-top: var(--size-xl);
