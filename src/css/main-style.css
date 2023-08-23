@@ -369,7 +369,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    
+}
+.finished__project{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--size-md);
+    margin-bottom: var(--size-sm);
 }
 .section4__projects img{
     border-radius: 10px;
