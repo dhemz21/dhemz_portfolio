@@ -62,18 +62,19 @@
 .section__profile{
     text-align: center;
 }
-
-.section__profile img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+.section__profile img {
+    height: 180px;
+    width: 160px;
+    /* border-radius: 100px; */
+    padding: 8px;
     border: 2px solid var(--clr-rose600);
     margin-top: var(--size-xl);
 }
 
 .section__name{
     color: var(--clr-white);
-    font-size: var(--size-lg);
+    font-size: var(--size-2xl);
+    text-transform: uppercase;
 }
 .section__job{
     display: flex;
@@ -114,9 +115,9 @@
 /* md */
 @media(min-width: 768px){
     .section__profile img{
-        width: 150px;
-        height: 150px;
-        border-radius: 100px;
+        width: 160px;
+        height: 180px;
+        /* border-radius: 100px; */
     }
     .section__name{
         font-size: var(--size-2xl);
@@ -144,16 +145,16 @@
 @media(min-width: 1024px){
     .section{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .section__profile{
         width: 90%;
     }
     .section__profile img{
-        width: 180px;
-        height: 180px;
-        border-radius: 100px;
+        width: 250px;
+        height: 280px;
+        /* border-radius: 100px; */
     }
     .section__profile{
         margin-top: var(--size-4xl);
@@ -167,7 +168,7 @@
     }
 
     .section__introduction{
-        text-align: center;
+        text-align: justify;
         width: 90%;
     }
     hr{
