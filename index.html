@@ -12,6 +12,8 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="src/css/main-style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/eebafef846.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,22 +27,22 @@
             <div class="navbar__menus">
                 <ul class="navbar__menu">
                     <li class="menu__list">
-                        <a href="">About me</a>
+                        <a href="#about">About me</a>
                     </li>
                 </ul>
                 <ul class="navbar__menu">
                     <li class="menu__list">
-                        <a href="">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                 </ul>
                 <ul class="navbar__menu">
                     <li class="menu__list">
-                        <a href="">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                 </ul>
                 <ul class="navbar__menu">
                     <li class="menu__list">
-                        <a href="">Resume</a>
+                        <a href="#resume">Resume</a>
                     </li>
                 </ul>
                 <div class="menu-icon" id="menu">
@@ -60,6 +62,11 @@
                 <p class="section__job">
                     web <span class="section__span">developer</span>
                 </p>
+                <div class="section__contact__links">
+                    <a href="https://github.com/dhemz21"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/dhemz21.omp"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/dhemler-omapas-0093281b9/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </div>
             <div class="section__introduction">
                 <h5>- Introduction</h5>
@@ -78,7 +85,7 @@
             </h1>
         </div>
     </section>
-    <section class="main__page2">
+    <section id="about" class="main__page2">
         <div class="section2 container">
             <div class="section2__bg__rocket">
                 <img src="icons/rocket-svgrepo-com.svg" alt="">
@@ -125,6 +132,8 @@
             <br>
             <hr>
         </div>
+    </section>
+    <section id="services" class="main__page2">
         <div class="section2 container">
             <div class="section2__heading">
                 <h1>
@@ -191,6 +200,29 @@
             <hr class="section__span">
         </div>
     </section>
+    <section id="projects" class="main__page2">
+
+    </section>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".navbar__menu a");
+
+    navLinks.forEach(link => {
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        const targetId = this.getAttribute("href");
+        console.log("Target ID:", targetId); // Add this line
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 50, // Adjust scroll position if you have a fixed header
+            behavior: "smooth"
+          });
+        }
+      });
+    });
+});
+    </script>
 </body>
 
 </html>

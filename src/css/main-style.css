@@ -83,6 +83,18 @@
     font-weight: bold;
     font-size: var(--size-md);
 }
+.section__contact__links{
+    color: var(--clr-white);
+    font-size: 24px;
+}
+.section__contact__links i{
+    margin: 0 8px;
+    transition: 0.5s ease;
+    transform-origin: center; 
+}
+.section__contact__links i:hover{
+    transform: scale(1.15);
+}
 .section__span{
     color: var(--clr-rose600);
     margin-left: 8px;
@@ -185,7 +197,7 @@
 .section2__bg__rocket img{
     width: 900px;
     position: absolute;
-    opacity: 2%;
+    opacity: 5%;
     z-index: 1;
     top: -120px;
     left: 0;
@@ -220,7 +232,7 @@
 /* xs */
 @media(min-width: 475px){
     .section2__bg__rocket img{
-        top: -250px;
+        top: -350px;
     }
 }
 
