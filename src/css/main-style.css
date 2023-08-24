@@ -64,7 +64,7 @@
 }
 .section__profile img {
     max-height: 700px;
-    width: 160px;
+    max-width: 170px;
     border-radius: 6px;
     margin-top: var(--size-xl);
 }
