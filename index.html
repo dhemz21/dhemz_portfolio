@@ -40,11 +40,6 @@
                         <a href="#projects">Projects</a>
                     </li>
                 </ul>
-                <ul class="navbar__menu">
-                    <li class="menu__list">
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
                 <div class="menu-icon" id="menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -56,7 +51,7 @@
     <section class="main__page">
         <div class="section container">
             <div class="section__profile">
-                <img src="img/dhemz.jpg" alt="">
+                <img src="img/dhemz_profile.jpg" alt="">
                 <h1 class="section__name">Dhemler Omapas</h1>
                 <hr>
                 <p class="section__job">
@@ -116,7 +111,8 @@
                     develop mentor graphic design projects.
                     <br>
                     <br>
-                    With such ambitions and strengths, I always seek new challenges to further mould my skills. I am incredibly
+                    With such ambitions and strengths, I always seek new challenges to further mould my skills. I am
+                    incredibly
                     passionate about personal and professional growth, and I see every challenge as an opportunity to
                     learn and improve.
                     My dedication, perseverance, problem-solving prowess, and team leadership skills make me uniquely
@@ -194,49 +190,137 @@
                     </a>
                 </div>
             </div>
-            <hr class="section2__hr">
+            <hr class="section1__hr">
         </div>
     </section>
     <section id="projects" class="main__page2">
         <div class="section4 container">
+            <!-- Heading -->
             <div class="section2__heading">
                 <h1>
-                <span class="section__span"> Projects</span>
+                    My<span class="section__span">Projects</span>
                 </h1>
             </div>
+            <!-- Project sections -->
             <div class="section4__projects">
+                <!-- Project description -->
                 <div class="project1 evsu__system">
                     <h3 class="finished__project">My Finished Projects</h3>
-                    <div class="project__content">
-                    <img src="project/Project1.jpg" alt="My project">
-                    <p class="evsu__system__info">
-                       I have been assigned as the programmer to build this project, which is our Thesis System. This system is named
-                       <strong>
-                        'Events and Activities Attendance Management Monitoring and Management System' 
-                       </strong>
-                        Some of the cool features of this system include the use of <strong>QR codes for attendance</strong>, 
-                       <strong> support for offline scanning</strong>, <strong>temporary storage of users data in a JSON file if there is no internet 
-                        connection,</strong> the ability to <strong>generate attendance sheets into pdf file</strong>, and the use of <strong>One Time Password (OTP)</strong> for user 
-                        registration. It can also post events to specific users and send them to their email if there are posted 
-                        events, It also have a <strong>CRUD functionality</strong> This System uses <b>HTML, CSS, BOOTRAP, PHP, JAVASCRIPT, MYSQL, jquery, ajax, json, phplibraries</b>.
-                    </p>
                 </div>
-            </div>
-                <div class="project2 evsu__system">
-                    <div class="project__content">
-                    <img src="project/Project2.jpg" alt="My project">
-                    <p class="evsu__system__info">
-                        I have been assigned as the programmer to build this project, <strong>PhilHealth System</strong>, This system I built when 
-                        I was on OJT on Philhealth. The features of this system can <strong>generate document copy in pdf file</strong>, it uses <strong>One Time Password (OTP)</strong> for employee registration.
-                        Every document has a unique code based on the date that the file was upladed, It also have a CRUD functionality, This system uses
-                        <b>HTML, CSS, BOOTRAP, PHP, JAVASCRIPT, MYSQL, jquery, ajax, phplibraries</b>.
-                     </p>
+                <!-- Swiper -->
+                <div class="section__swiper">
+                    <div class="project__swiper">
+                        <div class="project__section">
+                            <swiper-container class="mySwiper" centered-slides="true" autoplay-delay="3500"
+                                autoplay-disable-on-interaction="false">
+                                <swiper-slide><img src="project/Evsu_System1.jpg" alt=""></swiper-slide>
+                                <swiper-slide><img src="project/Evsu_System2.jpg" alt=""></swiper-slide>
+                                <swiper-slide><img src="project/Evsu_System3.jpg" alt=""></swiper-slide>
+                                <swiper-slide><img src="project/Evsu_System4.jpg" alt=""></swiper-slide>
+                                <swiper-slide><img src="project/Evsu_System5.jpg" alt=""></swiper-slide>
+                                <div class="autoplay-progress" slot="container-end">
+                                    <svg viewBox="0 0 48 48">
+                                        <circle cx="24" cy="24" r="20"></circle>
+                                    </svg>
+                                    <span></span>
+                                </div>
+                            </swiper-container>
+                        </div>
+                        <p class="evsu__system__info">
+                            I have been assigned as the programmer to build this project, which is our Thesis System.
+                            This
+                            system is named
+                            <strong>
+                                'Events and Activities Attendance Management Monitoring and Management System'
+                            </strong>
+                            Some of the cool features of this system include the use of <strong>QR codes for
+                                attendance</strong>,
+                            <strong> support for offline scanning</strong>, <strong>temporary storage of users data in a
+                                JSON file if there is no internet
+                                connection,</strong> the ability to <strong>generate attendance sheets into pdf
+                                file</strong>, and the use of <strong>One Time Password (OTP)</strong> for user
+                            registration. It can also post events to specific users and send them to their email if
+                            there
+                            are posted
+                            events, It also have a <strong>CRUD functionality</strong> This System uses <b>HTML, CSS,
+                                BOOTRAP, PHP, JAVASCRIPT, MYSQL, jquery, ajax, json, phplibraries</b>.
+                        </p>
+                    </div>
+                    <div class="project__swiper">
+                        <div class="project__section">
+                            <swiper-container class="mySwiper" centered-slides="true" autoplay-delay="3500"
+                                autoplay-disable-on-interaction="false">
+                                <swiper-slide><img src="project/Philhealth1.jpg" alt=""></swiper-slide>
+                                <swiper-slide><img src="project/Philhealth2.jpg" alt=""></swiper-slide>
+                                <swiper-slide><img src="project/Philhealth3.jpg" alt=""></swiper-slide>
+                                <div class="autoplay-progress2" slot="container-end">
+                                    <svg viewBox="0 0 48 48">
+                                        <circle cx="24" cy="24" r="20"></circle>
+                                    </svg>
+                                    <span></span>
+                                </div>
+                            </swiper-container>
+                        </div>
+                        <p class="evsu__system__info">
+                            I have been assigned as the programmer to build this project, <strong>PhilHealth
+                                System</strong>, This system I built when
+                            I was on OJT on Philhealth. The features of this system can <strong>generate document copy
+                                in pdf file</strong>, it uses <strong>One Time Password (OTP)</strong> for employee
+                            registration.
+                            Every document has a unique code based on the date that the file was upladed, It also have a
+                            CRUD functionality, This system uses
+                            <b>HTML, CSS, BOOTRAP, PHP, JAVASCRIPT, MYSQL, jquery, ajax, phplibraries</b>.
+                        </p>
+                    </div>
                 </div>
-                </div>  
+                <br>
+                <hr class="section2__hr">
             </div>
-        </div>
     </section>
+
+    <section id="" class="main__page2">
+        <div class="section5 container">
+            <div class="section2__bg__rocket">
+                <img src="icons/rocket-svgrepo-com.svg" alt="">
+            </div>
+            <div class="section5__menu">
+                <nav class="nav__menu container">
+                    <div class="section5__nav__manu">
+                        <ul>
+                            <li>
+                                <a href="">Skills</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">Resume</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="section5__heading">
+                <h1>
+                    My Skills
+                </h1>
+            </div>
+            <div class="section5__skills">
+
+
+                <br>
+                <hr class="section2__hr">
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
     <script src="src/js/srollEvent.js"></script>
+    <script src="src/js/swiper.js"></script>
+    <script src="src/js/swiper2.js"></script>
 </body>
 
 </html>

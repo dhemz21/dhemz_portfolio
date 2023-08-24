@@ -34,7 +34,7 @@ body{
     color: var(--clr-jet);
 }
 img, picture, video, canvas, svg{
-    display: inq;
+    display: inline;
     max-width: 100%;
     user-select: none;
 }
@@ -66,6 +66,7 @@ b{
     text-transform: uppercase;
 }
 hr{
+
     height: 1px;
     border: none;
     background-color: #acacacbe;
