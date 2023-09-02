@@ -607,7 +607,7 @@
     text-align: center;
     background-color: #0a0f1d;
     color: var(--clr-white);
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .footer__header h3{
@@ -620,10 +620,33 @@
 .footer__contact h3{
     text-transform: uppercase;
     font-size: var(--size-md);
+    margin-bottom: 14px;
 }
-.footer__socials h3{
-    font-size: var(--size-lg);
-    text-transform: uppercase;
-    margin-bottom: 1rem;
+.footer__contact{
+    margin-bottom: 16px;
+}
+
+/* lg */
+@media(min-width: 1024px){
+    .footer__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer__contact h3{
+        text-transform: uppercase;
+        font-size: var(--size-xl);
+    }
+    .footer__header h3{
+        font-size: var(--size-xl);
+    }
+    .footer p{
+        font-size: var(--size-xl);
+        font-style: italic;
+    }
+    .footer__contact .email, i{
+        font-size: 18px;
+    }
 }
 
