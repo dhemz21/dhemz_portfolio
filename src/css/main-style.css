@@ -601,3 +601,28 @@
     }
 }
 
+.main__footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0a0f1d;
+    color: var(--clr-white);
+    padding: 20px 0;
+}
+
+.footer__header h3{
+    font-size: var(--size-xl);
+}
+.footer p{
+    font-size: var(--size-sm);
+    font-style: italic;
+}
+.footer__contact h3{
+    text-transform: uppercase;
+    font-size: var(--size-md);
+}
+.footer__socials h3{
+    font-size: var(--size-lg);
+    margin-bottom: 1rem;
+}
+
