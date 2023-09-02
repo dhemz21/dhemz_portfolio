@@ -623,6 +623,7 @@
 }
 .footer__socials h3{
     font-size: var(--size-lg);
+    text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
