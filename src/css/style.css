@@ -61,6 +61,7 @@ strong{
     font-style: italic;
     text-transform: capitalize;
 }
+
 b{
     color: var(--clr-rose600);
     text-transform: uppercase;
