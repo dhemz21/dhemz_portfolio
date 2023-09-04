@@ -672,7 +672,20 @@ swiper-container {
     object-fit: cover;
   }
 
+.website__title{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    padding: 10px 0;
+}
 
+.website__span__description{
+    color: var(--clr-white);
+}
+
+.view__website{
+    margin: 1rem 0;
+}
 
 .main__footer{
     display: flex;
